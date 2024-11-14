@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c6e9cf4a22.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO1.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hello,I'm <span>Akinda</span><br> From Sri lanka</h1>
+        </div>
+    </div>
+</div>
+</div>
+<!--------------------about------------------------>
+<div id="about">
+    <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+                <img src="images/pic1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>* I am Akinda Gunarathne, 21-year-old  living in Kelaniye.<br><br>
+                    * I was a student of  Ananda College Colombo 10.<br><br>
+                    * I am currently following BSc(Hons) degree in Data science at  SLTC Research University.<br><br>
+                    * I am currently working as a part-time tutor in Mathematics.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ui/ux</span><br>Designing web / app interfaces</li><br>
+                            <li><span>Web Development</span><br>Web app Development</li><br>
+                            <li><span>App Development</span><br>Building Android/ios apps</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>GCE Ordinary level</span><br>8A,1B</li><br>
+                            <li><span>GCE Advanced level(Physical Science Stream)</span><br>1B,2C</li><br>
+                        </ul>
+                    </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+<!-- ------------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting innovative and user-centric web designs that elevate your digital presence.</p>
+                <a href="#">Learn more</a>    
+            </div>
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <h2>UI/UX Design</h2>
+                <p>Transforming ideas into intuitive and engaging user experiences through thoughtful and innovative UI/UX design.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Creating sleek, intuitive, and high-performance app designs that delight users and drive engagement.</p>
+                <a href="#">Learn more</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------portfolio------------ -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/groceryapp.jpg">
+                <div class="layer">
+                    <h3>Online Grocery Shopping App</h3>
+                    <p>Fresh groceries delivered to your door - shop online with ease, convenience, and speed.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/TAXI APP.jpg">
+                <div class="layer">
+                    <h3>Taxi app</h3>
+                    <p>Seamless rides at your fingertips - your trusted taxi app for fast, reliable, and convenient transportation.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from Play Store</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------contact-------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>akindagunarathne@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+94 740 733 951</p>
+                <div class="social-icons">
+                   <a href="https://www.facebook.com/share/14omjbspRs/?mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a> 
+                   <a href="https://www.instagram.com/_akinda_?igsh=dXQ3NmhkdmV5dW1o&utm_source=qr"><i class="fa-brands fa-instagram"></i></i></a> 
+                   <a href="https://www.linkedin.com/in/akinda-gunarathne-5405191b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a> 
+                </div>
+                <a href="images/Akinda CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name"required>
+                  <input type="email" name="Email" placeholder="Your Email"required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>  
+                <span id="msg"></span>
+            </div>
+        
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Akinda. Made with  <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyP-g1Jf0fSTXnKEK_Qm701TFWLovWSDr7ELV878F8UL7r4s286SgMW4_aBvblH1jrWcA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent succesfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  </script> 
+</body>
+</html>
+                    
+
+
+  
+
+
